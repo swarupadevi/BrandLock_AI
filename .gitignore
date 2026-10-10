@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.venv/
+.venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Local databases and generated reports
+*.db
+*.sqlite
+*.sqlite3
+flask_app/reports/*
+!flask_app/reports/.gitkeep
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
